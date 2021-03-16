@@ -1,0 +1,119 @@
+[
+  {
+    "stationName": "São Paulo-Morumbi",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 128
+  },
+  {
+    "stationName": "Estádio Morumbi",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 129
+  },
+  {
+    "stationName": "Américo Mourano",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 130
+  },
+  {
+    "stationName": "Paraisópolis",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 131
+  },
+  {
+    "stationName": "Panamby",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": null,
+    "id": 132
+  },
+  {
+    "stationName": "Morumbi",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": null,
+    "id": 133
+  },
+  {
+    "stationName": "Chucri Zaidan",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 134
+  },
+  {
+    "stationName": "Vila Cordeiro",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 135
+  },
+  {
+    "stationName": "Campo Belo",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 136
+  },
+  {
+    "stationName": "Vereador José Diniz",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 137
+  },
+  {
+    "stationName": "Brooklin Paulista",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 138
+  },
+  {
+    "stationName": "Congonhas · Jardim Aeroporto",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 139
+  },
+  {
+    "stationName": "Vila Paulista",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 140
+  },
+  {
+    "stationName": "Vila Babilônia",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 141
+  },
+  {
+    "stationName": "Cidade Leonor",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 142
+  },
+  {
+    "stationName": "Hospital Sabóia",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 143
+  },
+  {
+    "stationName": "Jabaquara",
+    "lineName": "Linha 17-Ouro",
+    "lineNumber": 17,
+    "lineColor": "Ouro",
+    "id": 144
+  }
+]

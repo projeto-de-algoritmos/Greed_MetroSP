@@ -1,0 +1,940 @@
+{
+  "0": {
+    "stationName": "Tucuruvi",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 0,
+    "neighboringStations": [
+      1
+    ]
+  },
+  "1": {
+    "stationName": "Parada Inglesa",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 1,
+    "neighboringStations": [
+      0,
+      2
+    ]
+  },
+  "2": {
+    "stationName": "Jardim São Paulo-Ayrton Senna",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 2,
+    "neighboringStations": [
+      1,
+      3
+    ]
+  },
+  "3": {
+    "stationName": "Santana",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 3,
+    "neighboringStations": [
+      2,
+      4
+    ]
+  },
+  "4": {
+    "stationName": "Carandiru",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 4,
+    "neighboringStations": [
+      3,
+      5
+    ]
+  },
+  "5": {
+    "stationName": "Portuguesa-Tietê",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 5,
+    "neighboringStations": [
+      4,
+      6
+    ]
+  },
+  "6": {
+    "stationName": "Armênia",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 6,
+    "neighboringStations": [
+      5,
+      7
+    ]
+  },
+  "7": {
+    "stationName": "Tiradentes",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 7,
+    "neighboringStations": [
+      6,
+      8
+    ]
+  },
+  "8": {
+    "stationName": "Luz",
+    "lineName": "Estação de Integração",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 8,
+    "neighboringStations": [
+      7,
+      9,
+      52
+    ]
+  },
+  "9": {
+    "stationName": "São Bento",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 9,
+    "neighboringStations": [
+      8,
+      10
+    ]
+  },
+  "10": {
+    "stationName": "Sé",
+    "lineName": "Estação de Integração",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 10,
+    "neighboringStations": [
+      9,
+      11,
+      53,
+      55
+    ]
+  },
+  "11": {
+    "stationName": "Japão-Liberdade",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 11,
+    "neighboringStations": [
+      10,
+      12
+    ]
+  },
+  "12": {
+    "stationName": "São Joaquim",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 12,
+    "neighboringStations": [
+      11,
+      13
+    ]
+  },
+  "13": {
+    "stationName": "Vergueiro",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 13,
+    "neighboringStations": [
+      12,
+      14
+    ]
+  },
+  "14": {
+    "stationName": "Paraíso",
+    "lineName": "Estação de Integração",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 14,
+    "neighboringStations": [
+      13,
+      15,
+      28
+    ]
+  },
+  "15": {
+    "stationName": "Ana Rosa",
+    "lineName": "Estação de Integração",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 15,
+    "neighboringStations": [
+      14,
+      16,
+      31
+    ]
+  },
+  "16": {
+    "stationName": "Vila Mariana",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 16,
+    "neighboringStations": [
+      15,
+      17
+    ]
+  },
+  "17": {
+    "stationName": "Santa Cruz",
+    "lineName": "Estação de Integração",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 17,
+    "neighboringStations": [
+      16,
+      18,
+      92,
+      31
+    ]
+  },
+  "18": {
+    "stationName": "Praça da Árvore",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 18,
+    "neighboringStations": [
+      17,
+      19
+    ]
+  },
+  "19": {
+    "stationName": "Saúde",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 19,
+    "neighboringStations": [
+      18,
+      20
+    ]
+  },
+  "20": {
+    "stationName": "São Judas",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 20,
+    "neighboringStations": [
+      19,
+      21
+    ]
+  },
+  "21": {
+    "stationName": "Conceição",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 21,
+    "neighboringStations": [
+      20,
+      22
+    ]
+  },
+  "22": {
+    "stationName": "Jabaquara",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 22,
+    "neighboringStations": [
+      21
+    ]
+  },
+  "23": {
+    "stationName": "Vila Madalena",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 23,
+    "neighboringStations": [
+      24
+    ]
+  },
+  "24": {
+    "stationName": "Santuário Nossa Senhora de Fátima-Sumaré",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 24,
+    "neighboringStations": [
+      23,
+      25
+    ]
+  },
+  "25": {
+    "stationName": "Clínicas",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 25,
+    "neighboringStations": [
+      24,
+      26
+    ]
+  },
+  "26": {
+    "stationName": "Consolação-Paulista",
+    "lineName": "Estação de Integração",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 26,
+    "neighboringStations": [
+      25,
+      27,
+      106,
+      73
+    ]
+  },
+  "27": {
+    "stationName": "Trianon-Masp",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 27,
+    "neighboringStations": [
+      26,
+      28
+    ]
+  },
+  "28": {
+    "stationName": "Brigadeiro",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 28,
+    "neighboringStations": [
+      27,
+      14
+    ]
+  },
+  "31": {
+    "stationName": "Chácara Klabin",
+    "lineName": "Estação de Integração",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 31,
+    "neighboringStations": [
+      15,
+      32,
+      17
+    ]
+  },
+  "32": {
+    "stationName": "Santos-Imigrantes",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 32,
+    "neighboringStations": [
+      31,
+      33
+    ]
+  },
+  "33": {
+    "stationName": "Alto do Ipiranga",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 33,
+    "neighboringStations": [
+      32,
+      34
+    ]
+  },
+  "34": {
+    "stationName": "Sacomã",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 34,
+    "neighboringStations": [
+      33,
+      35
+    ]
+  },
+  "35": {
+    "stationName": "Tamanduateí",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 35,
+    "neighboringStations": [
+      34,
+      111
+    ]
+  },
+  "43": {
+    "stationName": "Penha",
+    "lineName": "Estação de Integração",
+    "lineNumber": 2,
+    "lineColor": "Vermelha",
+    "id": 43,
+    "neighboringStations": [
+      60,
+      62
+    ]
+  },
+  "49": {
+    "stationName": "Palmeiras-Barra Funda",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 49,
+    "neighboringStations": [
+      50
+    ]
+  },
+  "50": {
+    "stationName": "Marechal Deodoro",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 50,
+    "neighboringStations": [
+      49,
+      51
+    ]
+  },
+  "51": {
+    "stationName": "Santa Cecília",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 51,
+    "neighboringStations": [
+      50,
+      52
+    ]
+  },
+  "52": {
+    "stationName": "República",
+    "lineName": "Estação de Integração",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 52,
+    "neighboringStations": [
+      51,
+      53,
+      106,
+      8
+    ]
+  },
+  "53": {
+    "stationName": "Anhangabaú",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 53,
+    "neighboringStations": [
+      52,
+      10
+    ]
+  },
+  "55": {
+    "stationName": "Pedro II",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 55,
+    "neighboringStations": [
+      10,
+      56
+    ]
+  },
+  "56": {
+    "stationName": "Brás",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 56,
+    "neighboringStations": [
+      55,
+      57
+    ]
+  },
+  "57": {
+    "stationName": "Bresser-Mooca",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 57,
+    "neighboringStations": [
+      56,
+      58
+    ]
+  },
+  "58": {
+    "stationName": "Belém",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 58,
+    "neighboringStations": [
+      57,
+      59
+    ]
+  },
+  "59": {
+    "stationName": "Tatuapé",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 59,
+    "neighboringStations": [
+      58,
+      60
+    ]
+  },
+  "60": {
+    "stationName": "Carrão",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 60,
+    "neighboringStations": [
+      59,
+      43
+    ]
+  },
+  "62": {
+    "stationName": "Vila Matilde",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 62,
+    "neighboringStations": [
+      43,
+      63
+    ]
+  },
+  "63": {
+    "stationName": "Guilhermina-Esperança",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 63,
+    "neighboringStations": [
+      62,
+      64
+    ]
+  },
+  "64": {
+    "stationName": "Patriarca",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 64,
+    "neighboringStations": [
+      63,
+      65
+    ]
+  },
+  "65": {
+    "stationName": "Artur Alvim",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 65,
+    "neighboringStations": [
+      64,
+      66
+    ]
+  },
+  "66": {
+    "stationName": "Corinthians-Itaquera",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 66,
+    "neighboringStations": [
+      65
+    ]
+  },
+  "67": {
+    "stationName": "Vila Sônia",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 67,
+    "neighboringStations": [
+      128
+    ]
+  },
+  "69": {
+    "stationName": "Butantã",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 69,
+    "neighboringStations": [
+      128,
+      70
+    ]
+  },
+  "70": {
+    "stationName": "Pinheiros",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 70,
+    "neighboringStations": [
+      69,
+      71
+    ]
+  },
+  "71": {
+    "stationName": "Faria Lima",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 71,
+    "neighboringStations": [
+      70,
+      72
+    ]
+  },
+  "72": {
+    "stationName": "Fradique Coutinho",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 72,
+    "neighboringStations": [
+      71,
+      73
+    ]
+  },
+  "73": {
+    "stationName": "Oscar Freire",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 73,
+    "neighboringStations": [
+      72,
+      26
+    ]
+  },
+  "78": {
+    "stationName": "Capão Redondo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 78,
+    "neighboringStations": [
+      79
+    ]
+  },
+  "79": {
+    "stationName": "Campo Limpo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 79,
+    "neighboringStations": [
+      78,
+      80
+    ]
+  },
+  "80": {
+    "stationName": "Vila das Belezas",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 80,
+    "neighboringStations": [
+      79,
+      81
+    ]
+  },
+  "81": {
+    "stationName": "Giovanni Gronchi",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 81,
+    "neighboringStations": [
+      80,
+      82
+    ]
+  },
+  "82": {
+    "stationName": "Santo Amaro",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 82,
+    "neighboringStations": [
+      81,
+      83
+    ]
+  },
+  "83": {
+    "stationName": "Largo Treze",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 83,
+    "neighboringStations": [
+      82,
+      84
+    ]
+  },
+  "84": {
+    "stationName": "Adolfo Pinheiro",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 84,
+    "neighboringStations": [
+      83,
+      85
+    ]
+  },
+  "85": {
+    "stationName": "Alto da Boa Vista",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 85,
+    "neighboringStations": [
+      84,
+      86
+    ]
+  },
+  "86": {
+    "stationName": "Borba Gato",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 86,
+    "neighboringStations": [
+      85,
+      87
+    ]
+  },
+  "87": {
+    "stationName": "Brooklin",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 87,
+    "neighboringStations": [
+      86,
+      136
+    ]
+  },
+  "89": {
+    "stationName": "Eucaliptos",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 89,
+    "neighboringStations": [
+      136,
+      90
+    ]
+  },
+  "90": {
+    "stationName": "Moema",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 90,
+    "neighboringStations": [
+      89,
+      91
+    ]
+  },
+  "91": {
+    "stationName": "AACD-Servidor",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 91,
+    "neighboringStations": [
+      90,
+      92
+    ]
+  },
+  "92": {
+    "stationName": "Hospital São Paulo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 92,
+    "neighboringStations": [
+      91,
+      17
+    ]
+  },
+  "106": {
+    "stationName": "Higienópolis-Mackenzie",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 6,
+    "lineColor": "Amarela",
+    "id": 106,
+    "neighboringStations": [
+      26,
+      52
+    ]
+  },
+  "110": {
+    "stationName": "Ipiranga",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 110,
+    "neighboringStations": [
+      111
+    ]
+  },
+  "111": {
+    "stationName": "Vila Prudente",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 111,
+    "neighboringStations": [
+      35,
+      110,
+      112
+    ]
+  },
+  "112": {
+    "stationName": "Oratório",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 112,
+    "neighboringStations": [
+      111,
+      113
+    ]
+  },
+  "113": {
+    "stationName": "São Lucas",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 113,
+    "neighboringStations": [
+      112,
+      114
+    ]
+  },
+  "114": {
+    "stationName": "Camilo Haddad",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 114,
+    "neighboringStations": [
+      113,
+      115
+    ]
+  },
+  "115": {
+    "stationName": "Vila Tolstói",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 115,
+    "neighboringStations": [
+      114,
+      116
+    ]
+  },
+  "116": {
+    "stationName": "Vila União",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 116,
+    "neighboringStations": [
+      115,
+      117
+    ]
+  },
+  "117": {
+    "stationName": "Jardim Planalto",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 117,
+    "neighboringStations": [
+      116,
+      118
+    ]
+  },
+  "118": {
+    "stationName": "Sapopemba",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 118,
+    "neighboringStations": [
+      117,
+      119
+    ]
+  },
+  "119": {
+    "stationName": "Fazenda da Juta",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 119,
+    "neighboringStations": [
+      118,
+      120
+    ]
+  },
+  "120": {
+    "stationName": "São Mateu",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 120,
+    "neighboringStations": [
+      119
+    ]
+  },
+  "128": {
+    "stationName": "São Paulo-Morumbi",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 128,
+    "neighboringStations": [
+      69
+    ]
+  },
+  "136": {
+    "stationName": "Campo Belo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 136,
+    "neighboringStations": [
+      87,
+      89
+    ]
+  }
+}

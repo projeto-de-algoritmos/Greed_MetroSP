@@ -1,0 +1,128 @@
+[
+  {
+    "stationName": "Ipiranga",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 110
+  },
+  {
+    "stationName": "Vila Prudente",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 111
+  },
+  {
+    "stationName": "Oratório",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 112
+  },
+  {
+    "stationName": "São Lucas",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 113
+  },
+  {
+    "stationName": "Camilo Haddad",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 114
+  },
+  {
+    "stationName": "Vila Tolstói",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 115
+  },
+  {
+    "stationName": "Vila União",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 116
+  },
+  {
+    "stationName": "Jardim Planalto",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 117
+  },
+  {
+    "stationName": "Sapopemba",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 118
+  },
+  {
+    "stationName": "Fazenda da Juta",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 119
+  },
+  {
+    "stationName": "São Mateu",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 120
+  },
+  {
+    "stationName": "Iguatemi",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 121
+  },
+  {
+    "stationName": "Jequiriçá",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 122
+  },
+  {
+    "stationName": "Jacú-Pêssego",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 123
+  },
+  {
+    "stationName": "Érico Semer",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 124
+  },
+  {
+    "stationName": "Márcio Beck",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 125
+  },
+  {
+    "stationName": "Cidade Tiradentes",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 126
+  },
+  {
+    "stationName": "Hospital Cidade Tiradentes",
+    "lineName": "Linha 15-Prata",
+    "lineNumber": 15,
+    "lineColor": "Prata",
+    "id": 127
+  }
+]

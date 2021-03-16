@@ -1,0 +1,121 @@
+[
+  {
+    "stationName": "Capão Redondo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 78
+  },
+  {
+    "stationName": "Campo Limpo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 79
+  },
+  {
+    "stationName": "Vila das Belezas",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 80
+  },
+  {
+    "stationName": "Giovanni Gronchi",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 81
+  },
+  {
+    "stationName": "Santo Amaro",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 82
+  },
+  {
+    "stationName": "Largo Treze",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 83
+  },
+  {
+    "stationName": "Adolfo Pinheiro",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 84
+  },
+  {
+    "stationName": "Alto da Boa Vista",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 85
+  },
+  {
+    "stationName": "Borba Gato",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 86
+  },
+  {
+    "stationName": "Brooklin",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 87
+  },
+  {
+    "stationName": "Campo Belo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 88
+  },
+  {
+    "stationName": "Eucaliptos",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 89
+  },
+  {
+    "stationName": "Moema",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 90
+  },
+  {
+    "stationName": "AACD-Servidor",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 91
+  },
+  {
+    "stationName": "Hospital São Paulo",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 92
+  },
+  {
+    "stationName": "Santa Cruz",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 93
+  },
+  {
+    "stationName": "Chácara Klabin",
+    "lineName": "Linha 5-Lilás",
+    "lineNumber": 5,
+    "lineColor": "Lilás",
+    "id": 94
+  }
+]

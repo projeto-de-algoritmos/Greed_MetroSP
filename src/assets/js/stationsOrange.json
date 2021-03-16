@@ -1,0 +1,107 @@
+[
+  {
+    "stationName": "Brasilândia",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 95
+  },
+  {
+    "stationName": "Vila Cardoso",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 96
+  },
+  {
+    "stationName": "Itaberaba",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 97
+  },
+  {
+    "stationName": "João Paulo I",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 98
+  },
+  {
+    "stationName": "Freguesia do Ó",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 99
+  },
+  {
+    "stationName": "Santa Marina",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 100
+  },
+  {
+    "stationName": "Água Branca",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 101
+  },
+  {
+    "stationName": "SESC-Pompéia",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 102
+  },
+  {
+    "stationName": "Perdizes",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 103
+  },
+  {
+    "stationName": "PUC-Cardoso de Almeida",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 104
+  },
+  {
+    "stationName": "Angélica-Pacaembu",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 105
+  },
+  {
+    "stationName": "Higienópolis-Mackenzie",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 106
+  },
+  {
+    "stationName": "14 Bis",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 107
+  },
+  {
+    "stationName": "Bela Vista",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 108
+  },
+  {
+    "stationName": "São Joaquim",
+    "lineName": "Linha 6-Laranja",
+    "lineNumber": 6,
+    "lineColor": "Laranja",
+    "id": 109
+  }
+]

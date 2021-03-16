@@ -1,0 +1,163 @@
+[
+  {
+    "stationName": "Tucuruvi",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 0
+  },
+  {
+    "stationName": "Parada Inglesa",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 1
+  },
+  {
+    "stationName": "Jardim São Paulo-Ayrton Senna",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 2
+  },
+  {
+    "stationName": "Santana",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 3
+  },
+  {
+    "stationName": "Carandiru",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 4
+  },
+  {
+    "stationName": "Portuguesa-Tietê",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 5
+  },
+  {
+    "stationName": "Armênia",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 6
+  },
+  {
+    "stationName": "Tiradentes",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 7
+  },
+  {
+    "stationName": "Luz",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 8
+  },
+  {
+    "stationName": "São Bento",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 9
+  },
+  {
+    "stationName": "Sé",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 10
+  },
+  {
+    "stationName": "Japão-Liberdade",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 11
+  },
+  {
+    "stationName": "São Joaquim",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 12
+  },
+  {
+    "stationName": "Vergueiro",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 13
+  },
+  {
+    "stationName": "Paraíso",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 14
+  },
+  {
+    "stationName": "Ana Rosa",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 15
+  },
+  {
+    "stationName": "Vila Mariana",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 16
+  },
+  {
+    "stationName": "Santa Cruz",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 17
+  },
+  {
+    "stationName": "Praça da Árvore",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 18
+  },
+  {
+    "stationName": "Saúde",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 19
+  },
+  {
+    "stationName": "São Judas",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 20
+  },
+  {
+    "stationName": "Conceição",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 21
+  },
+  {
+    "stationName": "Jabaquara",
+    "lineName": "Linha 1-Azul",
+    "lineNumber": 1,
+    "lineColor": "Azul",
+    "id": 22
+  }
+]

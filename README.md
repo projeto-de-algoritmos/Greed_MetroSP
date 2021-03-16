@@ -1,45 +1,44 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Metro SP
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 3<br>
+**Conteúdo da Disciplina**: Algoritmos ambiciosos<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+| Matrícula  | Aluno                  |
+| ---------- | ---------------------- |
+| 18/0114689 | Tiago Samuel Rodrigues |
+| 18/0113666 | Ítalo Álves Guimarães  |
+
+## Sobre
+
+Este projeto tem como objetivo organizar o tempo do trajeto e dos metrôs numa viagem entre as estações de São Paulo. O projeto utiliza dos algoritmos aprendidos na disciplina até o momento e do Algoritmo de Scheduling to Minimize Lateness para organizar os horários dos metrôs entre todas as estações.
 
 ## Screenshots
+
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+## Instalação
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+**Linguagem**: JavaScript<br>
+**Framework**: React.js<br>
+Possuir o node.js e npm instalado na máquina.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Uso
 
+clone o repositório
 
+entre na pasta do repositório
 
+rode
 
+```
+  npm install
+  npm start
+```
+
+navegue até [localhost:3000](http://localhost:3000)
+
+## Outros
+
+Algumas estações mostradas no mapa podem não estar disponíveis para busca.

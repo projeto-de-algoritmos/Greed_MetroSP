@@ -1,0 +1,79 @@
+[
+  {
+    "stationName": "Vila Sônia",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 67
+  },
+  {
+    "stationName": "São Paulo-Morumbi",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 68
+  },
+  {
+    "stationName": "Butantã",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 69
+  },
+  {
+    "stationName": "Pinheiros",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 70
+  },
+  {
+    "stationName": "Faria Lima",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 71
+  },
+  {
+    "stationName": "Fradique Coutinho",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 72
+  },
+  {
+    "stationName": "Oscar Freire",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 73
+  },
+  {
+    "stationName": "Paulista",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 74
+  },
+  {
+    "stationName": "Higienópolis-Mackenzie",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 75
+  },
+  {
+    "stationName": "República",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 76
+  },
+  {
+    "stationName": "Luz",
+    "lineName": "Linha 4-Amarela",
+    "lineNumber": 4,
+    "lineColor": "Amarela",
+    "id": 77
+  }
+]

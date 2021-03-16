@@ -1,0 +1,184 @@
+[
+  {
+    "stationName": "Vila Madalena",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 23
+  },
+  {
+    "stationName": "Santuário Nossa Senhora de Fátima-Sumaré",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 24
+  },
+  {
+    "stationName": "Clínicas",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 25
+  },
+  {
+    "stationName": "Consolação",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 26
+  },
+  {
+    "stationName": "Trianon-Masp",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 27
+  },
+  {
+    "stationName": "Brigadeiro",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 28
+  },
+  {
+    "stationName": "Paraíso",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 29
+  },
+  {
+    "stationName": "Ana Rosa",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 30
+  },
+  {
+    "stationName": "Chácara Klabin",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 31
+  },
+  {
+    "stationName": "Santos-Imigrantes",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 32
+  },
+  {
+    "stationName": "Alto do Ipiranga",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 33
+  },
+  {
+    "stationName": "Sacomã",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 34
+  },
+  {
+    "stationName": "Tamanduateí",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 35
+  },
+  {
+    "stationName": "Vila Prudente · Orfanato",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 36
+  },
+  {
+    "stationName": "Água Rasa",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 37
+  },
+  {
+    "stationName": "Anália Franco",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 38
+  },
+  {
+    "stationName": "Vila Formosa",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 39
+  },
+  {
+    "stationName": "Guilherme Giorgi",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 40
+  },
+  {
+    "stationName": "Nova Manchester",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 41
+  },
+  {
+    "stationName": "Aricanduva",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 42
+  },
+  {
+    "stationName": "Penha",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 43
+  },
+  {
+    "stationName": "Penha de França",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 44
+  },
+  {
+    "stationName": "Tiquatira",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 45
+  },
+  {
+    "stationName": "Paulo Freire",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 46
+  },
+  {
+    "stationName": "Ponte Grande",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 47
+  },
+  {
+    "stationName": "Dutra",
+    "lineName": "Linha 2-Verde",
+    "lineNumber": 2,
+    "lineColor": "Verde",
+    "id": 48
+  }
+]

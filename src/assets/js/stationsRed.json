@@ -1,0 +1,128 @@
+[
+  {
+    "stationName": "Palmeiras-Barra Funda",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 49
+  },
+  {
+    "stationName": "Marechal Deodoro",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 50
+  },
+  {
+    "stationName": "Santa Cecília",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 51
+  },
+  {
+    "stationName": "República",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 52
+  },
+  {
+    "stationName": "Anhangabaú",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 53
+  },
+  {
+    "stationName": "Sé",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 54
+  },
+  {
+    "stationName": "Pedro II",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 55
+  },
+  {
+    "stationName": "Brás",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 56
+  },
+  {
+    "stationName": "Bresser-Mooca",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 57
+  },
+  {
+    "stationName": "Belém",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 58
+  },
+  {
+    "stationName": "Tatuapé",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 59
+  },
+  {
+    "stationName": "Carrão",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 60
+  },
+  {
+    "stationName": "Penha",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 61
+  },
+  {
+    "stationName": "Vila Matilde",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 62
+  },
+  {
+    "stationName": "Guilhermina-Esperança",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 63
+  },
+  {
+    "stationName": "Patriarca",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 64
+  },
+  {
+    "stationName": "Artur Alvim",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 65
+  },
+  {
+    "stationName": "Corinthians-Itaquera",
+    "lineName": "Linha 3-Vermelha",
+    "lineNumber": 3,
+    "lineColor": "Vermelha",
+    "id": 66
+  }
+]
