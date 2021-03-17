@@ -29,9 +29,9 @@ const captions = [
 const Home = () => {
   const [partida, setPartida] = useState({ value: -1, label: 'Partida' })
   const [destino, setDestino] = useState({ value: -1, label: 'Destino' })
-  const [isDijkstra, setIsDijkstra] = useState(true)
   const [error, setError] = useState('')
   const [instructions, setInstructions] = useState([])
+  const [showModal, setShowModal] = useState(true)
 
   const map = useRef()
   const width = useWindowWidth() - 300
@@ -56,7 +56,7 @@ const Home = () => {
       return
     }
 
-    const travel = getInstructions(partida.value, destino.value, isDijkstra)
+    const travel = getInstructions(partida.value, destino.value, false)
     setInstructions(travel)
   }
 
@@ -111,22 +111,6 @@ const Home = () => {
                 />
               </div>
             </div>
-          </div>
-          <div className='travel-mode'>
-            <label className='switch-label' htmlFor='switch-input'>
-              <div className='switch'>
-                <input
-                  type='checkbox'
-                  id='switch-input'
-                  checked={isDijkstra}
-                  onChange={() => setIsDijkstra(!isDijkstra)}
-                />
-                <span className='slider' />
-              </div>
-              <div className='label'>
-                <p>Utilizar Dijkstra</p>
-              </div>
-            </label>
           </div>
           <div className={`travel-error ${error ? 'has-error' : ''}`}>
             <p>{error}</p>
@@ -211,6 +195,14 @@ const Home = () => {
             </UncontrolledReactSVGPanZoom>
           )}
         />
+      </div>
+
+      <div className={`modal-overlay ${showModal ? 'show' : ''}`}>
+        <div className='modal'>
+          <button type='button' onClick={() => setShowModal(false)}>
+            teste
+          </button>
+        </div>
       </div>
     </div>
   )
