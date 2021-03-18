@@ -9,6 +9,7 @@ import { UncontrolledReactSVGPanZoom, TOOL_PAN } from 'react-svg-pan-zoom'
 import bxTrain from '@iconify/icons-bx/bx-train'
 import bxInfo from '@iconify/icons-bx/bx-info-circle'
 import bxCaptions from '@iconify/icons-bx/bx-captions'
+import bxsMessage from '@iconify/icons-bx/bxs-message-square-x'
 import bxsCircle from '@iconify/icons-bx/bxs-circle'
 import pathImage from '../../assets/img/path.png'
 
@@ -31,7 +32,7 @@ const Home = () => {
   const [destino, setDestino] = useState({ value: -1, label: 'Destino' })
   const [error, setError] = useState('')
   const [instructions, setInstructions] = useState([])
-  const [showModal, setShowModal] = useState(true)
+  const [showModal, setShowModal] = useState(false)
 
   const map = useRef()
   const width = useWindowWidth() - 300
@@ -70,6 +71,10 @@ const Home = () => {
     setInstructions([
       'Digite a estação de partida e a de destino para receber o trajeto.',
     ])
+
+    setTimeout(() => {
+      setShowModal(true)
+    }, 500)
   }, [])
 
   return (
@@ -199,9 +204,21 @@ const Home = () => {
 
       <div className={`modal-overlay ${showModal ? 'show' : ''}`}>
         <div className='modal'>
-          <button type='button' onClick={() => setShowModal(false)}>
-            teste
-          </button>
+          <div className='modal-header'>
+            <h5 className='modal-title'>Horários de metrô</h5>
+            <InlineIcon
+              icon={bxsMessage}
+              style={{ color: '#fff', fontSize: '25px' }}
+              onClick={() => setShowModal(false)}
+            />
+          </div>
+          <div className='modal-body'>
+            <p>
+              As viagens realizadas dependem dos horários organizados dos
+              metrôs. Nas instruções você pode verificar o horário de partida e
+              chegada de cada um, após buscar o trajeto.
+            </p>
+          </div>
         </div>
       </div>
     </div>
