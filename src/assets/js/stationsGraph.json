@@ -6,7 +6,10 @@
     "lineColor": "Azul",
     "id": 0,
     "neighboringStations": [
-      1
+      {
+        "node": 1,
+        "weight": 10
+      }
     ]
   },
   "1": {
@@ -16,8 +19,14 @@
     "lineColor": "Azul",
     "id": 1,
     "neighboringStations": [
-      0,
-      2
+      {
+        "node": 0,
+        "weight": 10
+      },
+      {
+        "node": 2,
+        "weight": 2
+      }
     ]
   },
   "2": {
@@ -27,8 +36,14 @@
     "lineColor": "Azul",
     "id": 2,
     "neighboringStations": [
-      1,
-      3
+      {
+        "node": 1,
+        "weight": 2
+      },
+      {
+        "node": 3,
+        "weight": 8
+      }
     ]
   },
   "3": {
@@ -38,8 +53,14 @@
     "lineColor": "Azul",
     "id": 3,
     "neighboringStations": [
-      2,
-      4
+      {
+        "node": 2,
+        "weight": 8
+      },
+      {
+        "node": 4,
+        "weight": 8
+      }
     ]
   },
   "4": {
@@ -49,8 +70,14 @@
     "lineColor": "Azul",
     "id": 4,
     "neighboringStations": [
-      3,
-      5
+      {
+        "node": 3,
+        "weight": 8
+      },
+      {
+        "node": 5,
+        "weight": 3
+      }
     ]
   },
   "5": {
@@ -60,8 +87,14 @@
     "lineColor": "Azul",
     "id": 5,
     "neighboringStations": [
-      4,
-      6
+      {
+        "node": 4,
+        "weight": 3
+      },
+      {
+        "node": 6,
+        "weight": 10
+      }
     ]
   },
   "6": {
@@ -71,8 +104,14 @@
     "lineColor": "Azul",
     "id": 6,
     "neighboringStations": [
-      5,
-      7
+      {
+        "node": 5,
+        "weight": 10
+      },
+      {
+        "node": 7,
+        "weight": 1
+      }
     ]
   },
   "7": {
@@ -82,8 +121,14 @@
     "lineColor": "Azul",
     "id": 7,
     "neighboringStations": [
-      6,
-      8
+      {
+        "node": 6,
+        "weight": 1
+      },
+      {
+        "node": 8,
+        "weight": 1
+      }
     ]
   },
   "8": {
@@ -93,9 +138,18 @@
     "lineColor": "Azul",
     "id": 8,
     "neighboringStations": [
-      7,
-      9,
-      52
+      {
+        "node": 7,
+        "weight": 1
+      },
+      {
+        "node": 9,
+        "weight": 2
+      },
+      {
+        "node": 52,
+        "weight": 9
+      }
     ]
   },
   "9": {
@@ -105,8 +159,14 @@
     "lineColor": "Azul",
     "id": 9,
     "neighboringStations": [
-      8,
-      10
+      {
+        "node": 8,
+        "weight": 2
+      },
+      {
+        "node": 10,
+        "weight": 4
+      }
     ]
   },
   "10": {
@@ -116,10 +176,22 @@
     "lineColor": "Azul",
     "id": 10,
     "neighboringStations": [
-      9,
-      11,
-      53,
-      55
+      {
+        "node": 9,
+        "weight": 4
+      },
+      {
+        "node": 11,
+        "weight": 10
+      },
+      {
+        "node": 53,
+        "weight": 1
+      },
+      {
+        "node": 55,
+        "weight": 2
+      }
     ]
   },
   "11": {
@@ -129,8 +201,14 @@
     "lineColor": "Azul",
     "id": 11,
     "neighboringStations": [
-      10,
-      12
+      {
+        "node": 10,
+        "weight": 10
+      },
+      {
+        "node": 12,
+        "weight": 6
+      }
     ]
   },
   "12": {
@@ -140,8 +218,14 @@
     "lineColor": "Azul",
     "id": 12,
     "neighboringStations": [
-      11,
-      13
+      {
+        "node": 11,
+        "weight": 6
+      },
+      {
+        "node": 13,
+        "weight": 7
+      }
     ]
   },
   "13": {
@@ -151,8 +235,14 @@
     "lineColor": "Azul",
     "id": 13,
     "neighboringStations": [
-      12,
-      14
+      {
+        "node": 12,
+        "weight": 7
+      },
+      {
+        "node": 14,
+        "weight": 2
+      }
     ]
   },
   "14": {
@@ -162,9 +252,18 @@
     "lineColor": "Azul",
     "id": 14,
     "neighboringStations": [
-      13,
-      15,
-      28
+      {
+        "node": 13,
+        "weight": 2
+      },
+      {
+        "node": 15,
+        "weight": 4
+      },
+      {
+        "node": 28,
+        "weight": 3
+      }
     ]
   },
   "15": {
@@ -174,9 +273,18 @@
     "lineColor": "Azul",
     "id": 15,
     "neighboringStations": [
-      14,
-      16,
-      31
+      {
+        "node": 14,
+        "weight": 4
+      },
+      {
+        "node": 16,
+        "weight": 2
+      },
+      {
+        "node": 31,
+        "weight": 3
+      }
     ]
   },
   "16": {
@@ -186,8 +294,14 @@
     "lineColor": "Azul",
     "id": 16,
     "neighboringStations": [
-      15,
-      17
+      {
+        "node": 15,
+        "weight": 2
+      },
+      {
+        "node": 17,
+        "weight": 8
+      }
     ]
   },
   "17": {
@@ -197,10 +311,22 @@
     "lineColor": "Azul",
     "id": 17,
     "neighboringStations": [
-      16,
-      18,
-      92,
-      31
+      {
+        "node": 16,
+        "weight": 8
+      },
+      {
+        "node": 18,
+        "weight": 8
+      },
+      {
+        "node": 92,
+        "weight": 10
+      },
+      {
+        "node": 31,
+        "weight": 1
+      }
     ]
   },
   "18": {
@@ -210,8 +336,14 @@
     "lineColor": "Azul",
     "id": 18,
     "neighboringStations": [
-      17,
-      19
+      {
+        "node": 17,
+        "weight": 8
+      },
+      {
+        "node": 19,
+        "weight": 7
+      }
     ]
   },
   "19": {
@@ -221,8 +353,14 @@
     "lineColor": "Azul",
     "id": 19,
     "neighboringStations": [
-      18,
-      20
+      {
+        "node": 18,
+        "weight": 7
+      },
+      {
+        "node": 20,
+        "weight": 1
+      }
     ]
   },
   "20": {
@@ -232,8 +370,14 @@
     "lineColor": "Azul",
     "id": 20,
     "neighboringStations": [
-      19,
-      21
+      {
+        "node": 19,
+        "weight": 1
+      },
+      {
+        "node": 21,
+        "weight": 9
+      }
     ]
   },
   "21": {
@@ -243,8 +387,14 @@
     "lineColor": "Azul",
     "id": 21,
     "neighboringStations": [
-      20,
-      22
+      {
+        "node": 20,
+        "weight": 9
+      },
+      {
+        "node": 22,
+        "weight": 2
+      }
     ]
   },
   "22": {
@@ -254,7 +404,10 @@
     "lineColor": "Azul",
     "id": 22,
     "neighboringStations": [
-      21
+      {
+        "node": 21,
+        "weight": 2
+      }
     ]
   },
   "23": {
@@ -264,7 +417,10 @@
     "lineColor": "Verde",
     "id": 23,
     "neighboringStations": [
-      24
+      {
+        "node": 24,
+        "weight": 1
+      }
     ]
   },
   "24": {
@@ -274,8 +430,14 @@
     "lineColor": "Verde",
     "id": 24,
     "neighboringStations": [
-      23,
-      25
+      {
+        "node": 23,
+        "weight": 1
+      },
+      {
+        "node": 25,
+        "weight": 10
+      }
     ]
   },
   "25": {
@@ -285,8 +447,14 @@
     "lineColor": "Verde",
     "id": 25,
     "neighboringStations": [
-      24,
-      26
+      {
+        "node": 24,
+        "weight": 10
+      },
+      {
+        "node": 26,
+        "weight": 9
+      }
     ]
   },
   "26": {
@@ -296,10 +464,22 @@
     "lineColor": "Verde",
     "id": 26,
     "neighboringStations": [
-      25,
-      27,
-      106,
-      73
+      {
+        "node": 25,
+        "weight": 9
+      },
+      {
+        "node": 27,
+        "weight": 3
+      },
+      {
+        "node": 106,
+        "weight": 10
+      },
+      {
+        "node": 73,
+        "weight": 6
+      }
     ]
   },
   "27": {
@@ -309,8 +489,14 @@
     "lineColor": "Verde",
     "id": 27,
     "neighboringStations": [
-      26,
-      28
+      {
+        "node": 26,
+        "weight": 9
+      },
+      {
+        "node": 28,
+        "weight": 1
+      }
     ]
   },
   "28": {
@@ -320,8 +506,14 @@
     "lineColor": "Verde",
     "id": 28,
     "neighboringStations": [
-      27,
-      14
+      {
+        "node": 14,
+        "weight": 3
+      },
+      {
+        "node": 27,
+        "weight": 1
+      }
     ]
   },
   "31": {
@@ -331,9 +523,18 @@
     "lineColor": "Verde",
     "id": 31,
     "neighboringStations": [
-      15,
-      32,
-      17
+      {
+        "node": 15,
+        "weight": 3
+      },
+      {
+        "node": 17,
+        "weight": 1
+      },
+      {
+        "node": 32,
+        "weight": 10
+      }
     ]
   },
   "32": {
@@ -343,8 +544,14 @@
     "lineColor": "Verde",
     "id": 32,
     "neighboringStations": [
-      31,
-      33
+      {
+        "node": 31,
+        "weight": 10
+      },
+      {
+        "node": 33,
+        "weight": 10
+      }
     ]
   },
   "33": {
@@ -354,8 +561,14 @@
     "lineColor": "Verde",
     "id": 33,
     "neighboringStations": [
-      32,
-      34
+      {
+        "node": 32,
+        "weight": 10
+      },
+      {
+        "node": 34,
+        "weight": 10
+      }
     ]
   },
   "34": {
@@ -365,8 +578,14 @@
     "lineColor": "Verde",
     "id": 34,
     "neighboringStations": [
-      33,
-      35
+      {
+        "node": 33,
+        "weight": 10
+      },
+      {
+        "node": 35,
+        "weight": 6
+      }
     ]
   },
   "35": {
@@ -376,8 +595,14 @@
     "lineColor": "Verde",
     "id": 35,
     "neighboringStations": [
-      34,
-      111
+      {
+        "node": 34,
+        "weight": 6
+      },
+      {
+        "node": 111,
+        "weight": 7
+      }
     ]
   },
   "43": {
@@ -387,8 +612,14 @@
     "lineColor": "Vermelha",
     "id": 43,
     "neighboringStations": [
-      60,
-      62
+      {
+        "node": 60,
+        "weight": 4
+      },
+      {
+        "node": 62,
+        "weight": 2
+      }
     ]
   },
   "49": {
@@ -398,7 +629,10 @@
     "lineColor": "Vermelha",
     "id": 49,
     "neighboringStations": [
-      50
+      {
+        "node": 50,
+        "weight": 10
+      }
     ]
   },
   "50": {
@@ -408,8 +642,14 @@
     "lineColor": "Vermelha",
     "id": 50,
     "neighboringStations": [
-      49,
-      51
+      {
+        "node": 49,
+        "weight": 10
+      },
+      {
+        "node": 51,
+        "weight": 7
+      }
     ]
   },
   "51": {
@@ -419,8 +659,14 @@
     "lineColor": "Vermelha",
     "id": 51,
     "neighboringStations": [
-      50,
-      52
+      {
+        "node": 50,
+        "weight": 7
+      },
+      {
+        "node": 52,
+        "weight": 6
+      }
     ]
   },
   "52": {
@@ -430,10 +676,22 @@
     "lineColor": "Vermelha",
     "id": 52,
     "neighboringStations": [
-      51,
-      53,
-      106,
-      8
+      {
+        "node": 8,
+        "weight": 9
+      },
+      {
+        "node": 51,
+        "weight": 6
+      },
+      {
+        "node": 53,
+        "weight": 9
+      },
+      {
+        "node": 106,
+        "weight": 7
+      }
     ]
   },
   "53": {
@@ -443,8 +701,14 @@
     "lineColor": "Vermelha",
     "id": 53,
     "neighboringStations": [
-      52,
-      10
+      {
+        "node": 10,
+        "weight": 1
+      },
+      {
+        "node": 52,
+        "weight": 9
+      }
     ]
   },
   "55": {
@@ -454,8 +718,14 @@
     "lineColor": "Vermelha",
     "id": 55,
     "neighboringStations": [
-      10,
-      56
+      {
+        "node": 10,
+        "weight": 2
+      },
+      {
+        "node": 56,
+        "weight": 4
+      }
     ]
   },
   "56": {
@@ -465,8 +735,14 @@
     "lineColor": "Vermelha",
     "id": 56,
     "neighboringStations": [
-      55,
-      57
+      {
+        "node": 55,
+        "weight": 4
+      },
+      {
+        "node": 57,
+        "weight": 6
+      }
     ]
   },
   "57": {
@@ -476,8 +752,14 @@
     "lineColor": "Vermelha",
     "id": 57,
     "neighboringStations": [
-      56,
-      58
+      {
+        "node": 56,
+        "weight": 6
+      },
+      {
+        "node": 58,
+        "weight": 6
+      }
     ]
   },
   "58": {
@@ -487,8 +769,14 @@
     "lineColor": "Vermelha",
     "id": 58,
     "neighboringStations": [
-      57,
-      59
+      {
+        "node": 57,
+        "weight": 6
+      },
+      {
+        "node": 59,
+        "weight": 2
+      }
     ]
   },
   "59": {
@@ -498,8 +786,14 @@
     "lineColor": "Vermelha",
     "id": 59,
     "neighboringStations": [
-      58,
-      60
+      {
+        "node": 58,
+        "weight": 2
+      },
+      {
+        "node": 60,
+        "weight": 7
+      }
     ]
   },
   "60": {
@@ -509,8 +803,14 @@
     "lineColor": "Vermelha",
     "id": 60,
     "neighboringStations": [
-      59,
-      43
+      {
+        "node": 43,
+        "weight": 4
+      },
+      {
+        "node": 59,
+        "weight": 7
+      }
     ]
   },
   "62": {
@@ -520,8 +820,14 @@
     "lineColor": "Vermelha",
     "id": 62,
     "neighboringStations": [
-      43,
-      63
+      {
+        "node": 43,
+        "weight": 2
+      },
+      {
+        "node": 63,
+        "weight": 5
+      }
     ]
   },
   "63": {
@@ -531,8 +837,14 @@
     "lineColor": "Vermelha",
     "id": 63,
     "neighboringStations": [
-      62,
-      64
+      {
+        "node": 62,
+        "weight": 5
+      },
+      {
+        "node": 64,
+        "weight": 8
+      }
     ]
   },
   "64": {
@@ -542,8 +854,14 @@
     "lineColor": "Vermelha",
     "id": 64,
     "neighboringStations": [
-      63,
-      65
+      {
+        "node": 63,
+        "weight": 8
+      },
+      {
+        "node": 65,
+        "weight": 7
+      }
     ]
   },
   "65": {
@@ -553,8 +871,14 @@
     "lineColor": "Vermelha",
     "id": 65,
     "neighboringStations": [
-      64,
-      66
+      {
+        "node": 64,
+        "weight": 7
+      },
+      {
+        "node": 66,
+        "weight": 7
+      }
     ]
   },
   "66": {
@@ -564,7 +888,10 @@
     "lineColor": "Vermelha",
     "id": 66,
     "neighboringStations": [
-      65
+      {
+        "node": 65,
+        "weight": 7
+      }
     ]
   },
   "67": {
@@ -574,7 +901,10 @@
     "lineColor": "Amarela",
     "id": 67,
     "neighboringStations": [
-      128
+      {
+        "node": 128,
+        "weight": 9
+      }
     ]
   },
   "69": {
@@ -584,8 +914,14 @@
     "lineColor": "Amarela",
     "id": 69,
     "neighboringStations": [
-      128,
-      70
+      {
+        "node": 128,
+        "weight": 7
+      },
+      {
+        "node": 70,
+        "weight": 1
+      }
     ]
   },
   "70": {
@@ -595,8 +931,14 @@
     "lineColor": "Amarela",
     "id": 70,
     "neighboringStations": [
-      69,
-      71
+      {
+        "node": 69,
+        "weight": 1
+      },
+      {
+        "node": 71,
+        "weight": 8
+      }
     ]
   },
   "71": {
@@ -606,8 +948,14 @@
     "lineColor": "Amarela",
     "id": 71,
     "neighboringStations": [
-      70,
-      72
+      {
+        "node": 70,
+        "weight": 8
+      },
+      {
+        "node": 72,
+        "weight": 9
+      }
     ]
   },
   "72": {
@@ -617,8 +965,14 @@
     "lineColor": "Amarela",
     "id": 72,
     "neighboringStations": [
-      71,
-      73
+      {
+        "node": 71,
+        "weight": 9
+      },
+      {
+        "node": 73,
+        "weight": 1
+      }
     ]
   },
   "73": {
@@ -628,8 +982,14 @@
     "lineColor": "Amarela",
     "id": 73,
     "neighboringStations": [
-      72,
-      26
+      {
+        "node": 26,
+        "weight": 6
+      },
+      {
+        "node": 72,
+        "weight": 1
+      }
     ]
   },
   "78": {
@@ -639,7 +999,10 @@
     "lineColor": "Lilás",
     "id": 78,
     "neighboringStations": [
-      79
+      {
+        "node": 79,
+        "weight": 5
+      }
     ]
   },
   "79": {
@@ -649,8 +1012,14 @@
     "lineColor": "Lilás",
     "id": 79,
     "neighboringStations": [
-      78,
-      80
+      {
+        "node": 78,
+        "weight": 5
+      },
+      {
+        "node": 80,
+        "weight": 5
+      }
     ]
   },
   "80": {
@@ -660,8 +1029,14 @@
     "lineColor": "Lilás",
     "id": 80,
     "neighboringStations": [
-      79,
-      81
+      {
+        "node": 79,
+        "weight": 5
+      },
+      {
+        "node": 81,
+        "weight": 10
+      }
     ]
   },
   "81": {
@@ -671,8 +1046,14 @@
     "lineColor": "Lilás",
     "id": 81,
     "neighboringStations": [
-      80,
-      82
+      {
+        "node": 80,
+        "weight": 10
+      },
+      {
+        "node": 82,
+        "weight": 5
+      }
     ]
   },
   "82": {
@@ -682,8 +1063,14 @@
     "lineColor": "Lilás",
     "id": 82,
     "neighboringStations": [
-      81,
-      83
+      {
+        "node": 81,
+        "weight": 5
+      },
+      {
+        "node": 83,
+        "weight": 7
+      }
     ]
   },
   "83": {
@@ -693,8 +1080,14 @@
     "lineColor": "Lilás",
     "id": 83,
     "neighboringStations": [
-      82,
-      84
+      {
+        "node": 82,
+        "weight": 7
+      },
+      {
+        "node": 84,
+        "weight": 6
+      }
     ]
   },
   "84": {
@@ -704,8 +1097,14 @@
     "lineColor": "Lilás",
     "id": 84,
     "neighboringStations": [
-      83,
-      85
+      {
+        "node": 83,
+        "weight": 6
+      },
+      {
+        "node": 85,
+        "weight": 7
+      }
     ]
   },
   "85": {
@@ -715,8 +1114,14 @@
     "lineColor": "Lilás",
     "id": 85,
     "neighboringStations": [
-      84,
-      86
+      {
+        "node": 84,
+        "weight": 7
+      },
+      {
+        "node": 86,
+        "weight": 1
+      }
     ]
   },
   "86": {
@@ -726,8 +1131,14 @@
     "lineColor": "Lilás",
     "id": 86,
     "neighboringStations": [
-      85,
-      87
+      {
+        "node": 85,
+        "weight": 1
+      },
+      {
+        "node": 87,
+        "weight": 3
+      }
     ]
   },
   "87": {
@@ -737,8 +1148,14 @@
     "lineColor": "Lilás",
     "id": 87,
     "neighboringStations": [
-      86,
-      136
+      {
+        "node": 86,
+        "weight": 3
+      },
+      {
+        "node": 136,
+        "weight": 9
+      }
     ]
   },
   "89": {
@@ -748,8 +1165,14 @@
     "lineColor": "Lilás",
     "id": 89,
     "neighboringStations": [
-      136,
-      90
+      {
+        "node": 136,
+        "weight": 7
+      },
+      {
+        "node": 90,
+        "weight": 7
+      }
     ]
   },
   "90": {
@@ -759,8 +1182,14 @@
     "lineColor": "Lilás",
     "id": 90,
     "neighboringStations": [
-      89,
-      91
+      {
+        "node": 89,
+        "weight": 7
+      },
+      {
+        "node": 91,
+        "weight": 2
+      }
     ]
   },
   "91": {
@@ -770,8 +1199,14 @@
     "lineColor": "Lilás",
     "id": 91,
     "neighboringStations": [
-      90,
-      92
+      {
+        "node": 90,
+        "weight": 2
+      },
+      {
+        "node": 92,
+        "weight": 10
+      }
     ]
   },
   "92": {
@@ -781,8 +1216,14 @@
     "lineColor": "Lilás",
     "id": 92,
     "neighboringStations": [
-      91,
-      17
+      {
+        "node": 17,
+        "weight": 10
+      },
+      {
+        "node": 91,
+        "weight": 10
+      }
     ]
   },
   "106": {
@@ -792,18 +1233,14 @@
     "lineColor": "Amarela",
     "id": 106,
     "neighboringStations": [
-      26,
-      52
-    ]
-  },
-  "110": {
-    "stationName": "Ipiranga",
-    "lineName": "Linha 15-Prata",
-    "lineNumber": 15,
-    "lineColor": "Prata",
-    "id": 110,
-    "neighboringStations": [
-      111
+      {
+        "node": 26,
+        "weight": 10
+      },
+      {
+        "node": 52,
+        "weight": 7
+      }
     ]
   },
   "111": {
@@ -813,9 +1250,14 @@
     "lineColor": "Prata",
     "id": 111,
     "neighboringStations": [
-      35,
-      110,
-      112
+      {
+        "node": 35,
+        "weight": 7
+      },
+      {
+        "node": 112,
+        "weight": 6
+      }
     ]
   },
   "112": {
@@ -825,8 +1267,14 @@
     "lineColor": "Prata",
     "id": 112,
     "neighboringStations": [
-      111,
-      113
+      {
+        "node": 111,
+        "weight": 6
+      },
+      {
+        "node": 113,
+        "weight": 1
+      }
     ]
   },
   "113": {
@@ -836,8 +1284,14 @@
     "lineColor": "Prata",
     "id": 113,
     "neighboringStations": [
-      112,
-      114
+      {
+        "node": 112,
+        "weight": 1
+      },
+      {
+        "node": 114,
+        "weight": 1
+      }
     ]
   },
   "114": {
@@ -847,8 +1301,14 @@
     "lineColor": "Prata",
     "id": 114,
     "neighboringStations": [
-      113,
-      115
+      {
+        "node": 113,
+        "weight": 1
+      },
+      {
+        "node": 115,
+        "weight": 9
+      }
     ]
   },
   "115": {
@@ -858,8 +1318,14 @@
     "lineColor": "Prata",
     "id": 115,
     "neighboringStations": [
-      114,
-      116
+      {
+        "node": 114,
+        "weight": 9
+      },
+      {
+        "node": 116,
+        "weight": 5
+      }
     ]
   },
   "116": {
@@ -869,8 +1335,14 @@
     "lineColor": "Prata",
     "id": 116,
     "neighboringStations": [
-      115,
-      117
+      {
+        "node": 115,
+        "weight": 5
+      },
+      {
+        "node": 117,
+        "weight": 3
+      }
     ]
   },
   "117": {
@@ -880,8 +1352,14 @@
     "lineColor": "Prata",
     "id": 117,
     "neighboringStations": [
-      116,
-      118
+      {
+        "node": 116,
+        "weight": 3
+      },
+      {
+        "node": 118,
+        "weight": 3
+      }
     ]
   },
   "118": {
@@ -891,8 +1369,14 @@
     "lineColor": "Prata",
     "id": 118,
     "neighboringStations": [
-      117,
-      119
+      {
+        "node": 117,
+        "weight": 3
+      },
+      {
+        "node": 119,
+        "weight": 5
+      }
     ]
   },
   "119": {
@@ -902,8 +1386,14 @@
     "lineColor": "Prata",
     "id": 119,
     "neighboringStations": [
-      118,
-      120
+      {
+        "node": 118,
+        "weight": 5
+      },
+      {
+        "node": 120,
+        "weight": 8
+      }
     ]
   },
   "120": {
@@ -913,7 +1403,10 @@
     "lineColor": "Prata",
     "id": 120,
     "neighboringStations": [
-      119
+      {
+        "node": 119,
+        "weight": 8
+      }
     ]
   },
   "128": {
@@ -923,7 +1416,14 @@
     "lineColor": "Amarela",
     "id": 128,
     "neighboringStations": [
-      69
+      {
+        "node": 67,
+        "weight": 9
+      },
+      {
+        "node": 69,
+        "weight": 7
+      }
     ]
   },
   "136": {
@@ -933,8 +1433,14 @@
     "lineColor": "Lilás",
     "id": 136,
     "neighboringStations": [
-      87,
-      89
+      {
+        "node": 87,
+        "weight": 9
+      },
+      {
+        "node": 89,
+        "weight": 7
+      }
     ]
   }
 }
