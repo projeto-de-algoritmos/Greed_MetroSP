@@ -12,7 +12,7 @@ export const getStationsList = () => {
     })
 }
 
-const getTime = (totalMinutes) => {
+export const getTime = (totalMinutes) => {
   let hours = Math.floor(totalMinutes / 60)
   let minutes = totalMinutes % 60
   if (hours < 10) {
