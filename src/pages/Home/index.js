@@ -9,6 +9,7 @@ import { UncontrolledReactSVGPanZoom, TOOL_PAN } from 'react-svg-pan-zoom'
 import bxTrain from '@iconify/icons-bx/bx-train'
 import bxInfo from '@iconify/icons-bx/bx-info-circle'
 import bxCaptions from '@iconify/icons-bx/bx-captions'
+import bxsMessage from '@iconify/icons-bx/bxs-message-square-x'
 import bxsCircle from '@iconify/icons-bx/bxs-circle'
 import pathImage from '../../assets/img/path.png'
 
@@ -29,9 +30,9 @@ const captions = [
 const Home = () => {
   const [partida, setPartida] = useState({ value: -1, label: 'Partida' })
   const [destino, setDestino] = useState({ value: -1, label: 'Destino' })
-  const [isDijkstra, setIsDijkstra] = useState(true)
   const [error, setError] = useState('')
   const [instructions, setInstructions] = useState([])
+  const [showModal, setShowModal] = useState(false)
 
   const map = useRef()
   const width = useWindowWidth() - 300
@@ -56,7 +57,7 @@ const Home = () => {
       return
     }
 
-    const travel = getInstructions(partida.value, destino.value, isDijkstra)
+    const travel = getInstructions(partida.value, destino.value, false)
     setInstructions(travel)
   }
 
@@ -70,6 +71,10 @@ const Home = () => {
     setInstructions([
       'Digite a estação de partida e a de destino para receber o trajeto.',
     ])
+
+    setTimeout(() => {
+      setShowModal(true)
+    }, 500)
   }, [])
 
   return (
@@ -111,22 +116,6 @@ const Home = () => {
                 />
               </div>
             </div>
-          </div>
-          <div className='travel-mode'>
-            <label className='switch-label' htmlFor='switch-input'>
-              <div className='switch'>
-                <input
-                  type='checkbox'
-                  id='switch-input'
-                  checked={isDijkstra}
-                  onChange={() => setIsDijkstra(!isDijkstra)}
-                />
-                <span className='slider' />
-              </div>
-              <div className='label'>
-                <p>Utilizar Dijkstra</p>
-              </div>
-            </label>
           </div>
           <div className={`travel-error ${error ? 'has-error' : ''}`}>
             <p>{error}</p>
@@ -211,6 +200,26 @@ const Home = () => {
             </UncontrolledReactSVGPanZoom>
           )}
         />
+      </div>
+
+      <div className={`modal-overlay ${showModal ? 'show' : ''}`}>
+        <div className='modal'>
+          <div className='modal-header'>
+            <h5 className='modal-title'>Horários de metrô</h5>
+            <InlineIcon
+              icon={bxsMessage}
+              style={{ color: '#fff', fontSize: '25px' }}
+              onClick={() => setShowModal(false)}
+            />
+          </div>
+          <div className='modal-body'>
+            <p>
+              As viagens realizadas dependem dos horários organizados dos
+              metrôs. Nas instruções você pode verificar o horário de partida e
+              chegada de cada um, após buscar o trajeto.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )
