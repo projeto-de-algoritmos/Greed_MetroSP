@@ -71,13 +71,13 @@ const getMessages = (startStation, endStation, leaveTime) => {
 
   let mensagens = []
 
-  mensagens.push(`Embarque em ${path[0].stationName} sentido à estação ${path[1].stationName} no metrô de ${getTime(path[0].boardingTime)}`)
+  mensagens.push([`Embarque em ${path[0].stationName} sentido à estação ${path[1].stationName} no metrô de`, `${getTime(path[0].boardingTime)}`])
   for (let i = 1; i < path.length - 1; i += 1) {
     if (path[i].lineName === 'Estação de Integração') {
-      mensagens.push(`Na estação ${path[i].stationName} siga sentido à estação ${path[i + 1].stationName} com o metrô de ${getTime(path[i].boardingTime)}`)
+      mensagens.push([`Na estação ${path[i].stationName} siga sentido à estação ${path[i + 1].stationName} com o metrô de`, `${getTime(path[i].boardingTime)}`])
     }
   }
-  mensagens.push(`Desembarque em ${path[path.length - 1].stationName}`)
+  mensagens.push([`Desembarque em ${path[path.length - 1].stationName}`])
 
   return mensagens
 }
@@ -114,7 +114,7 @@ const Dijkstra = (startStation, endStation) => {
   while (queue.length > 0) {
     const { currentNode, index } = findMinNode(queue);
     if (currentNode.id === endStation) {
-      return
+      return true
     }
     queue.splice(index, 1)
 
@@ -126,10 +126,14 @@ const Dijkstra = (startStation, endStation) => {
       }
     })
   }
+
+  return false
 }
 
 export const getInstructions = (startStation, endStation, leaveTime) => {
-  Dijkstra(startStation, endStation)
+  if (!Dijkstra(startStation, endStation)) {
+    return ['Rota não encontrada']
+  }
 
   return getMessages(startStation, endStation, leaveTime)
 }
