@@ -50,7 +50,7 @@ const fixEdges = () => {
   }
 
   fs.writeFile(
-    './src/utils/aaaaa.json',
+    './src/assets/js/stationsGraphWeighted.json',
     JSON.stringify(ausSw),
     (err) => {
       if (err) {
