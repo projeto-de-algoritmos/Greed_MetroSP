@@ -30,6 +30,7 @@ const captions = [
 const Home = () => {
   const [partida, setPartida] = useState({ value: -1, label: 'Partida' })
   const [destino, setDestino] = useState({ value: -1, label: 'Destino' })
+  const [startTime, setStartTime] = useState(300)
   const [error, setError] = useState('')
   const [instructions, setInstructions] = useState([])
   const [showModal, setShowModal] = useState(false)
@@ -57,7 +58,7 @@ const Home = () => {
       return
     }
 
-    const travel = getInstructions(partida.value, destino.value, false)
+    const travel = getInstructions(partida.value, destino.value, startTime)
     setInstructions(travel)
   }
 
@@ -107,6 +108,22 @@ const Home = () => {
                 />
               </div>
               <div className='choice'>
+                <input
+                  type='time'
+                  className='time_select'
+                  min='05:00'
+                  max='23:59'
+                  defaultValue='05:00'
+                  onChange={(option) => {
+                    const time = option.target.value.split(':')
+                    const minutes =
+                      parseInt(time[0], 10) * 60 + parseInt(time[1], 10)
+
+                    setStartTime(minutes)
+                  }}
+                />
+              </div>
+              <div className='choice'>
                 <Select
                   className='travel_select_container'
                   classNamePrefix='travel_select'
@@ -142,7 +159,8 @@ const Home = () => {
                   if (instructions.length > 1) {
                     return (
                       <p key={key}>
-                        <span>{key}.</span> {instruction}
+                        <span>{key}.</span> {instruction[0]}{' '}
+                        <span>{instruction[1]}</span>
                       </p>
                     )
                   }
@@ -215,8 +233,8 @@ const Home = () => {
           <div className='modal-body'>
             <p>
               As viagens realizadas dependem dos horários organizados dos
-              metrôs. Nas instruções você pode verificar o horário de partida e
-              chegada de cada um, após buscar o trajeto.
+              metrôs. Nas instruções você pode verificar o horário de embarque
+              de cada um, após buscar o trajeto.
             </p>
           </div>
         </div>

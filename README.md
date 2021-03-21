@@ -18,7 +18,8 @@ Para uma melhor exemplificação do algoritmo, existem 3 metrôs diferentes que 
 
 ## Screenshots
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img src='screenshots/1.png'>
+<img src='screenshots/2.png'>
 
 ## Instalação
 

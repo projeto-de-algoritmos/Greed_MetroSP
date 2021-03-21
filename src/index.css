@@ -14,6 +14,10 @@ button {
   cursor: pointer;
 }
 
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .sidebar {
   background-color: #ffffff;
   box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
@@ -78,10 +82,16 @@ button {
   flex-direction: column;
   flex: 1;
 }
-.travel .choice:last-child {
+.travel .choice {
+  display: flex;
+}
+.travel .choice:not(:first-child) {
   margin-top: 15px;
 }
 
+.travel .travel_select_container {
+  width: 100%;
+}
 .travel .travel_select__control {
   background-color: #c4c4c4;
   border: 0;
@@ -106,6 +116,15 @@ button {
 .travel .travel_select__option {
   font-weight: 500;
   color: #231f20;
+}
+.travel .time_select {
+  width: 100%;
+  background-color: #c4c4c4;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  font-weight: 600;
+  padding: 8px;
 }
 
 /* Switch */
@@ -294,7 +313,7 @@ input:focus + .slider {
   color: #ed4e17 !important;
 }
 .modal p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 0;
